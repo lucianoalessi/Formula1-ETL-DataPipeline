@@ -1,0 +1,5 @@
+pandas
+requests
+fastparquet
+sqlalchemy
+psycopg2-binary

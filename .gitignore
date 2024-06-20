@@ -1,0 +1,9 @@
+# Entornos virtuales de Python
+ergast_env/
+
+# Datos de conexión
+pipeline.conf
+
+# Otros
+__pycache__/
+datalake/
