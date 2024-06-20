@@ -92,7 +92,7 @@ The connection to a PostgreSQL database is established, and the transformed/refi
 3. Create a virtual environment to install dependencies:
     ```sh
     python -m venv ergast_env
-    source ergast_env/bin/activate  # On Windows use `venv\Scripts\activate.bat`
+    source ergast_env/bin/activate  # On Windows use `ergast_env\Scripts\activate.bat`
     ```
 
 4. Install the required dependencies:
@@ -115,17 +115,17 @@ The connection to a PostgreSQL database is established, and the transformed/refi
     ```
 
 6. Run the Jupyter notebook to execute the ETL pipeline:
+
+    open etl_pipeline.ipynb in your editor code and clic in ejecute all.
+
+    or:
     ```sh
     jupyter notebook etl_pipeline.ipynb
     ```
 
 ## Usage Instructions
 
-1. Run the ETL pipeline by executing the main script:
-    ```sh
-    python etl_pipeline.py
-    ```
-
+1. Run the ETL pipeline: `etl_pipeline.ipynb`
 2. Monitor the logs for any errors or issues during execution.
 3. Access the stored data in the datalake or the PostgreSQL database for analysis.
 
