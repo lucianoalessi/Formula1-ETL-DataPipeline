@@ -1,5 +1,7 @@
 # F1 Data Engineering Project
 
+![alt text](image-1.png)
+
 This project aims to extract, process, and store (ETL) Formula 1 data using the Ergast API for subsequent analysis. The data is stored in Parquet format in a Data Lake. The raw extracted data is stored in the bronze layer of the datalake and subsequently processed and stored in an OLAP database (PostgreSQL in Aiven) for further analysis. The transformed/refined data is also stored in the silver layer of the datalake for the same purpose. This project is part of my integrative practical work in the Data Engineering course provided by the National Technological University (UTN) of Argentina.
 
 ## Data Sources
