@@ -3,3 +3,4 @@ requests
 fastparquet
 sqlalchemy
 psycopg2-binary
+ipykernel
